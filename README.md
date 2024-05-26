@@ -1,4 +1,4 @@
-# College Hackathon
+# College Website Hackathon
 A Student Management Application written in JavaScript without any 3rd part library. 
 - HTML + CSS + JavaScript
 
