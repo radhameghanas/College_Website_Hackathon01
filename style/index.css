@@ -1,0 +1,202 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Verdana, sans-serif;
+}
+
+header {
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    height: 100vh;
+
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 10% 0 0 0;
+    margin: 10% 0 0 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+#main-content {
+    flex-grow: 1;
+    flex-direction: row;
+    padding: 20px;
+}
+
+#homepage-img { 
+    width: 60%;
+    padding: 10% 0 0 10%
+
+}
+
+.bottom-navbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.card { 
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+    background-color:cornsilk;
+}
+.card:hover {
+    background-color: rgb(230, 213, 138);
+}
+
+
+h1 {
+    text-align: center;
+    color: #0077cc;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensures padding doesn't affect overall width */
+}
+
+#btn-yellow {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #e8cd00;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+#btn-yellow:hover {
+    background-color: #d2ba04;
+}
+
+.btn-green {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-green:hover {
+    background-color: #218838;
+}
+
+.dropdown-header {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+.dropdown-content .course-item {
+    padding: 5px;
+    cursor: pointer; 
+}
+
+.dropdown-content .course-item:hover{
+    text-decoration: underline; 
+}
+
+/* Show dropdown items */
+.dropdown-active .dropdown-content {
+    display: block;
+}
+
+#dropdown-img {
+    width: 18px;
+    margin-right: 5px; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.edit-btn{
+    display: inline;
+    width: fit-content;
+    padding: 5px 15px 5px 15px;
+    background-color: #757D79;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; 
+}
+.edit-btn:hover{
+    background-color: rgb(103, 110, 106);
+}
+
+.remove-btn{
+    display: inline;
+    width: fit-content;
+    padding: 5px;
+    background-color: #AE080B;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; 
+}
+.remove-btn:hover{
+    background-color: #8d090b;
+}
